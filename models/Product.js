@@ -14,7 +14,7 @@ Product.init(
         },
 
         product_name: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false,
         },
 

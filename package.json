@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "db": "nodemon server.js",
+    "db:seed": "node ./seeds/index.js",
     "test": "node server.js"
   },
   "author": "Grirvy",
