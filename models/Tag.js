@@ -15,7 +15,7 @@ Tag.init(
 
         tag_name: {
             type: DataTypes.STRING,
-            allowNull: true,
+            allowNull: false,
             defaultValue: 'John Doe'
         }
     },
